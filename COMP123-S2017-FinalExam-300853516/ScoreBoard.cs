@@ -25,11 +25,24 @@ namespace COMP123_S2017_FinalExam_300853516
         //PUBLIC PROPERTIES
         public TextBox FinalScoreTextBox
         {
-            get; set;                
+            get { return this._finalScoreTextBox; }
+            set { value = this._finalScoreTextBox; }               
         }
-        public int Score { get; set; }
-        public TextBox ScoreTextBox { get; set; }
-        public int Time { get; set; }
+        public int Score
+        {
+            get { return this._score; }
+            set { value = this._score; }
+        }
+        public TextBox ScoreTextBox
+        {
+            get { return this._ScoreTextBox; }
+            set { value = this._ScoreTextBox; }
+        }
+        public int Time
+        {
+            get { return this._time; }
+            set { value = this._time; }
+        }
         public TextBox TimeTextBox { get; set; }
         /// <summary>
         /// this is public constractor
